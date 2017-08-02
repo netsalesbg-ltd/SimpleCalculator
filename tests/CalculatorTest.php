@@ -3,11 +3,11 @@
 class CalculatorTest extends PHPUnit_Framework_TestCase
 {
 	
-	public function SumPositiveNumber()
+	public function testSumPositiveNumber()
 	{
 		$this->assertEquals(11,Calculator::Sum(5,6));
 	}
-	public function SumNegativeAndPositiveNumber()
+	public function testSumNegativeAndPositiveNumber()
 	{
 		$this->assertEquals(1,Calculator::Sum(-1,2));
 	}
